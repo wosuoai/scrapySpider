@@ -1,7 +1,7 @@
 [Switch to English Version](readmeEnglish.md)
 # 基于scrapy和scrapy-redis爬虫的脚手架
 ## 环境
-### 1. python3.11.9
+### 1. python3.8.10
 ### 2. scrapy2.11.2
 ### 3. scrapy-redis0.7.3 
 
@@ -9,6 +9,7 @@
 ## 使用
 ### 备注
 * 项目默认清理了所有不必要配置，如果要运行demo请参考spidersDemo，将内部文件替换到scrapySpiderRedis内
+* 项目分为两种不同的模式，request和selenium实现脚本调度
 ### 开启环境
 1. 安装mysql
 2. 安装redis
